@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página de Memórias</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: rgb(121, 133, 90);
+            color: rgb(52, 4, 245);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1, h2 {
+            font-family: 'Georgia', serif;
+            color: rgb(30, 30, 30);
+            position: relative;
+            display: inline-block;
+        }
+
+        h1::after {
+            content: "Esta é a minha página de memórias!";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: nowrap;
+            z-index: 10;
+        }
+
+        h1::before {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+            z-index: 9;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+        }
+
+        img, video, iframe {
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            height: auto;
+        }
+
+        video {
+            border: 2px solid rgb(52, 4, 245);
+        }
+
+        hr {
+            border: 0;
+            height: 2px;
+            background: rgb(52, 4, 245);
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>cia</h1>
+
+    <div class="container">
+        <div>
+            <h2>alanzinho e eu</h2>
+            <a href="https://open.spotify.com/intl-pt/track/4fg8WPI8JiVml405WiK9z9?si=b38d64c0c8054b45" target="_blank">
+                <img src="img/alan.png" alt="slanzinho e eu">
+            </a>
+        </div>
+
+        <div>
+            <h2>minhas múie</h2>
+            <a href="https://open.spotify.com/intl-pt/track/2qPSa6HXjzwa9sLhNGpA1T?si=a4467e249dac4cd5" target="_blank">
+                <img src="img/minhas.png" alt="Minhas Múie">
+            </a>
+        </div>
+
+        <div>
+            <h2>minha carioca</h2>
+            <a href="https://open.spotify.com/intl-pt/track/2o2xhyri4aJUtgMGkf5P0J?si=839ab182ac9d48b4" target="_blank">
+                <img src="img/yas.png" alt="minha carioca">
+            </a>
+        </div>
+
+        <div>
+            <h2>eliza regina</h2>
+            <a href="https://open.spotify.com/intl-pt/track/3nlhqZHMXG2A5UkW633wwx?si=a4cac2f2f7094c91" target="_blank">
+                <img src="img/regina.png" alt="regina">
+            </a>
+        </div>
+
+        <div>
+            <h2>viviano</h2>
+            <a href="https://open.spotify.com/intl-pt/track/23r1Kyn3hD7gRAgxWkW5Bb?si=c659e10dfa734956" target="_blank">
+                <img src="img/viviano.png" alt="viviano">
+            </a>
+        </div>
+
+        <div>
+            <h2>gado favorito</h2>
+            <a href="https://open.spotify.com/intl-pt/track/74lPucESMXF7QAYNbSFdJa?si=2786c869b7e94ef4" target="_blank">
+                <img src="img/theo.png" alt="theo">
+            </a>
+        </div>
+
+        <div>
+            <h2>fran</h2>
+            <a href="link_para_pagina_ou_imagem_7.html" target="_blank">
+                <img src="img/frann.png" alt="fran">
+            </a>
+        </div>
+
+        <div>
+            <h2>nat</h2>
+            <a href="link_para_pagina_ou_imagem_8.html" target="_blank">
+                <img src="img/nat.png" alt="nat">
+            </a>
+        </div>
+
+        <div>
+            <h2>maconheira</h2>
+            <a href="link_para_pagina_ou_imagem_8.html" target="_blank">
+                <img src="img/amandoca.png" alt="amandoca">
+            </a>
+        </div>
+
+        <div>
+            <h2>lua</h2>
+            <a href="https://open.spotify.com/intl-pt/track/7qvL8BbYdxvhOinapMiEeF?si=418b27916a304704" target="_blank">
+                <img src="img/lua.png" alt="minha lua">
+            </a>
+        </div>
+
+        <div>
+            <h2>nic</h2>
+            <a href="https://open.spotify.com/intl-pt/track/0lGOYi4wZiVc1arJJ4do0a?si=7b60581aae6b4192" target="_blank">
+                <img src="img/nic.png" alt="nic">
+            </a>
+        </div>
+
+        <div>
+            <h2>luisao</h2>
+            <a href="https://open.spotify.com/intl-pt/track/3zksbXteOCeSusJ5Xltr3t?si=121c0de6320344a7" target="_blank">
+                <img src="img/luisa.png" alt="luisao">
+            </a>
+        </div>
+
+        <div>
+            <h2>lusca</h2>
+            <a href="https://open.spotify.com/intl-pt/track/7D0RhFcb3CrfPuTJ0obrod?si=9d8d456ceda94a7e" target="_blank">
+                <img src="img/lucas.png" alt="lucas">
+            </a>
+        </div>
+
+        <div>
+            <h2>vidinha</h2>
+            <video controls>
+                <source src="videos/vida.mp4" type="video/mp4"> 
+                <source src="videos/vida.webm" type="video/webm"> 
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div>
+
+        <div>
+            <h2>Vídeo do YouTube</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ohHP1l2EVnU?si=0Ua234Qnzs82pxqO" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+</body>
+</html>
+
